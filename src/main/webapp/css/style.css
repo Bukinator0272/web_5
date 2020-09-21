@@ -1,0 +1,88 @@
+body {
+    padding: 100px;
+}
+
+.main {
+    width: 600px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+label {
+    font-family: fantasy;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0 10px 0;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin:0;
+}
+
+.submit_btn {
+    width: 50px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.submit_btn:hover {
+    background-color: #45a049;
+}
+
+.answer {
+    margin: auto;
+    padding: 5px;
+}
+
+.error_body {
+    margin: auto;
+    padding: 100px;
+}
+
+.table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif, serif;
+    font-size: 14px;
+    border-radius: 10px;
+    border-spacing: 0;
+    text-align: center;
+}
+
+th {
+    background: #BCEBDD;
+    color: white;
+    text-shadow: 0 1px 1px #2D2020;
+    padding: 10px 20px;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
